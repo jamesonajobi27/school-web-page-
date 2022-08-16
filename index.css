@@ -1,0 +1,198 @@
+*{box-sizing: border-box;}
+
+
+h1{
+    text-align: center;
+    color: purple;
+    font-size: 30px;
+    margin: 7px;
+    margin: 15px;
+    /* font-family: 'Monoton', cursive; */
+    font-family: 'Fugaz One', cursive;
+    
+    word-spacing: 15px;
+    letter-spacing: 3px;
+    
+}
+.lining{
+    height:2px;
+    background-color: purple;
+    width:100%;
+}
+body{
+    margin: 0px;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.verb{
+  margin-bottom: 0px;
+}
+h3{
+    font-size: 15px;
+    font-family: 'Courgette', cursive;
+
+}
+
+h3:hover{
+    color: rgb(17, 199, 17);
+}
+img{
+   height:470px;
+   margin-bottom: 0px;
+
+}
+.seperate{
+    display: flex;
+    margin-right:20px;
+}
+.home{
+    color: purple;
+}
+.home:hover{
+    color: purple;
+}
+.slide{
+    display: flex;
+}
+
+p{
+    padding: 20px;
+}
+h2{
+    line-height: 0%;
+    padding-top: 20px;
+}
+
+.slideShow-container{
+    position: relative;
+    flex-direction: column;
+    margin-right: 30px;
+} 
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    width: auto;
+    padding: 16px;
+    color:purple;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    top:200px
+   }
+   .prev{
+    left:90px
+   }
+  .next {
+    right: 6px;
+    top:200px;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev:hover, .next:hover {
+    background-color: whitesmoke;
+  } 
+   
+
+  
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+   .mama{
+    border: 2px  solid purple;
+       border-radius: 15px;
+     height: 400px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 700px;
+     margin-top:20px;
+     font-family: 'Cormorant SC', serif;
+   margin-left: 60px;
+     margin-right: 0px;
+  
+  }
+   .welcome{
+    padding-top: 30px;
+       line-break: 0px;
+       margin: 0px;
+       font-size: 30px;
+       font-family: 'Mouse Memoirs', sans-serif;
+       color:black;
+    ;
+
+  }  
+
+    
+  .welcame{
+  padding-top: 6px;
+       line-break: 0px;
+       margin: 0px;
+       font-size: 23px;
+       margin-bottom: 0px;
+    }
+
+  h6{
+    color: purple;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    line-height: 0px;
+    font-size: large;
+  } 
+
+  
+  .myslides1 {
+    border-right: 6px solid purple;
+    border-left: 6px solid purple;
+    margin-left: 85px;
+    height: 470px;
+    display:none;
+  }
+
+  .myslides2 {
+    border-right: 6px solid purple;
+    border-left: 6px solid purple;
+    margin-left: 85px;
+    height: 470px;
+  }
+  .myslides3 {
+    border-right: 6px solid purple;
+    border-left: 6px solid purple;
+    margin-left: 85px;
+    height: 470px;
+    display:none;
+  }
+  .myslides4 {
+    border-right: 6px solid purple;
+    border-left: 6px solid purple;
+    margin-left: 85px;
+    height: 470px;
+    display:none;
+  }
+   .last{
+    height:2px;
+    width: 100%;
+    background-color: purple;
+   }
+ .everything{
+  background-image:url("purple2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+
+ .fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
