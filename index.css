@@ -1,70 +1,201 @@
 /* *{box-sizing: border-box;} */
-
+  
 .navbar{
   display:flex;
   justify-content: space-between;
   align-items: center;
-  background-color:purple;
+  background-color:#01243c;
  position: fixed;
  width: 100%;
- border-bottom: 2px solid pink;
+ border-bottom: 2px solid #72FFFF;
+ padding: 0px;
+ margin: 0px;
 }
 
-#homesection{
- height: 550px;
- display:flex;
- flex-direction: row;
-  margin-top: 70px;
-  margin-left: 100px;
-  margin-right: 100px;
+.headerpicture{
+  height: 350px;
+border-radius: 10px 10px 10px 10px;
+background-color: #01243c;
+padding: 3px;
+width: 500px;
+
+border: none;
 }
-.borderbox{
+
+/* .headerpicture:hover{
+ background-color: #72FFFF; 
+padding: 10px;
+transition: 0.7s;
+border-radius: 15px 15px 15px 15px;
+
+} */
+h4{
+  color: #72FFFF;
+  background-color: #01243c;
+  /* padding: 20px 20px 50px 95px ; */
+  padding: 10px 20px 40px 20px ;
+  margin-left: 10px;
+  /* border-bottom: 3px solid ; */
+  border-radius: 200px;
+  text-align: center;
+  font-size: 22px;
+  margin-top: 10px;
+  margin-bottom: 1000px;
+  font-family: 'Russo One', sans-serif;
+  letter-spacing: 2px;
+  font-weight: lighter;
+  /* border-right: 1px solid #72FFFF; */
+     border: 2px solid #01243c;
+}
+h7{
+  /* color: #72FFFF;
+  background-color: #01243c; */
+  color: #01243c;
+  background-color: white;
+  /* padding: 20px 20px 50px 95px ; */
+  padding: 10px 20px 40px 20px ;
+  margin-left: 10px;
+  /* border-bottom: 3px solid ; */
+  border-radius: 200px;
+  text-align: center;
+  font-size: 22px;
+  margin-top: 10px;
+  margin-bottom: 1000px;
+  font-family: 'Russo One', sans-serif;
+  letter-spacing: 2px;
+  font-weight: lighter;
+  /* border-right: 1px solid #72FFFF; */
+     border: 2px solid #01243c;
+}
+
+
+h7:hover{
+    color: #72FFFF;
+  background-color: #01243c;
+  /* color: #01243c;
+  background-color: white; */
+  /* padding: 20px 20px 50px 95px ; */
+  padding: 10px 20px 40px 20px ;
+  /* border-bottom: 3px solid ; */
+  border-radius: 200px;
+  text-align: center;
+  margin-left: 10px;
+  font-size: 22px;
+  margin-top: 7px;
+  margin-bottom: 1000px;
+  font-family: 'Russo One', sans-serif;
+  letter-spacing: 2px;
+  font-weight: lighter;
+  /* border-right: 1px solid #72FFFF; */
+  /* border: 2px solid #01243c; */
+}
+h4:hover{
+  color: #72FFFF;
+  background-color: #01243c;
+  /* color: #01243c;
+  background-color: white; */
+  /* padding: 20px 20px 50px 95px ; */
+  padding: 10px 20px 40px 20px ;
+  /* border-bottom: 3px solid ; */
+  border-radius: 200px;
+  text-align: center;
+  margin-left: 10px;
+  font-size: 22px;
+  margin-top: 10px;
+  margin-bottom: 1000px;
+  font-family: 'Russo One', sans-serif;
+  letter-spacing: 2px;
+  font-weight: lighter;
+  /* border-right: 1px solid #72FFFF; */
+  /* border: 2px solid #01243c; */
+}
+.informationbox{
+  text-align: center;
+  margin-top: 105px;
+  height:187px ;
+  background-color: #01243c;
+  width: 401px;
+  margin-left: 20px;
+  border-radius: 5px;
+  border: 2px solid #01243c;
+  color: #72FFFF;
+  font-size: 5vh;
+  font-family: 'Russo One', sans-serif;
+ line-height: 40px;
+  text-align: left;
+  margin-bottom: 0px;
+  padding: 40px;
+  letter-spacing: 0px;
+  word-spacing: 0px;
+}
+.NoticeBoard{
   display: flex;
-  justify-content: center;
+  flex-direction:column;
+  margin-left:600px;
+
 }
+.date{
+  margin: 30px 10px 10px 0px;
+  text-align: right;
+  font-size: 12px;
+  
+}
+
+
 
 .box{
-width: 300px;
-height: 300px;
-margin: 20px;
-border-radius: 5px;
-border: 2px solid purple;
-}
-h4{
-  text-align: left;
-  background-color: purple;
-  padding: 20px;
-  color: pink;
-  margin: 0px;
-}
-h5{
-  text-align: center;
-  padding: 20px;
-  margin-top: 0px;
-  font-size: larger;
-  color: purple;
-  border-bottom: 2px solid purple;
+border: 2px solid #01243c;
+margin-top: 31px;
+border-radius: 10px;
+width: 500px;
+margin-left: 10px;
+display:flex;
+height: 350px ;
+text-align: left;
+position: absolute;
+margin-right: 0px;
 }
 
+
+ 
+html {
+  scroll-behavior : smooth; 
+  transition-duration: 100000s;
+  }
 .navigation{
   display:flex;
-justify-content: space-between;
-margin-right: 100px;
+margin-right: 50px;
+}
+
+.icon{
+  display:flex;
+  flex-direction: row;
+  margin: 0px 0px 0px 50px;
+  align-items: center;
+  position: relative;
+}
+.iconimage{
+  height: 50px;
+  color: #37009e;
+  background-color:white;
+  border-radius: 10px;
+  padding: 0px 5px 5px 5px;
 }
 h1{
+
     text-align: center;
-    color: pink;
+    color:#72FFFF;
     font-size: 25px;
     word-spacing: 5px;
-    margin-left: 100px;
-    font-family: 'Orbitron', sans-serif;
-   font-weight: bolder;
-
+    padding: 20px 10px;
+    margin: 0px 0px 0px 0px;
+  
 }
 h3{
-  padding-top: 10px;
-  padding-left: 20px;
   font-size: 15px;
+  color:#72FFFF;
+  padding: 22px 24px;
+  margin: 0px;
 }
 
 
@@ -75,100 +206,157 @@ body{
   margin: 0px;
 }
 
-   .mama{
-  
-     height: 400px;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    width: 700px;
-     margin-top:20px;
-     font-family: 'Cormorant SC', serif;
-   margin-left: 70px;
-     margin-right: 0px;
-  
-  }
    .welcome{
        font-size: 30px;
-       font-family: 'Mouse Memoirs', sans-serif;
-       color: purple;
-       text-align: center;
-       /* font-family: 'Anton', sans-serif; */
-    padding-left: 100px;
-    padding-right:100px;
-    font-family: 'Courgette', cursive;
-
+       color: white;
+       text-align: justify;
+     line-height:40px;
+  /* background-color: #37009e; */
+  padding: 40px 200px 40px 200px ;
+  margin: 70px  00px ;
+  background-image: url("luke-chesser-3rWagdKBF7U-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:bottom;
+  border-bottom: 2px solid #01243c;
+  /* font-family: 'Bebas Neue', cursive; */
+  /* font-family: 'Bree Serif', serif; */
+  font-family: 'Russo One', sans-serif;
+   margin-bottom: 0px;
+   letter-spacing: 0.5px;
   }  
+  
+  .slideshow{
+    display:flex;
+    margin-right: 100px;
+    margin-left: 100px;
+
+  }
+   .Text{
+    text-align: center;
+    bottom: 0;
+    position: absolute;
+    color: #72FFFF;
+    font-family: 'Russo One', sans-serif;
+    font-size: 15px;
+    margin-bottom: 10px ;
+    background-color: #01243c;
+    padding: 5px 30px 5px 30px;
+    border-radius: 5px;
+    transition: 0.5s;
+   }
+
+   .Text:hover{
+    margin-bottom: 11px ;
+    font-size: 17px;
+    transition: 0.4s;
+    cursor: pointer;
+    border: 2px solid;
+   }
+  .next{
+    font-size: 15px;
+    padding: 10px 15px 10px 15px;
+    background-color: #72FFFF;
+    border-radius: 5px 5px 5px 5px;
+    position: absolute;
+    border:1px solid #01243c;
+    right: -0;
+    top:45%;
+    margin-right: 10px;
+    transition: 0.5s;
+    color: #01243c;
+  }
+  .prev{
+    font-size: 15px;
+    padding: 10px 15px 10px 15px;
+    background-color: #72FFFF;
+    border-radius: 5px 5px 5px 5px;
+    position: absolute;
+    border:1px solid #01243c;
+    left: -0;
+    top:45%;
+    margin-left: 10px;
+    transition: 0.5s;
+    color: #01243c;
+  }
+  
+  .prev:hover{
+    padding: 10px 15px 10px 15px;
+    border-radius: 0px 5px 5px 0px;
+    border: 2px solid #01243c ;
+    font-size: 20px;
+    background-color: #72FFFF;
+    transition: 0.4s;
+    top:44%;
+    cursor:pointer;
+    margin-left: 2px;
+  }
+   .next:hover{
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px 0px 0px 5px;
+    border: 2px solid #01243c ;
+    font-size: 20px;
+    background-color: #72FFFF;
+    transition: 0.4s;
+    top:44%;
+    cursor:pointer;
+    margin-left: 2px;
+   }
+
+  .showcase{
+    display: flex;
+    flex-direction: row;
+     margin-top: 35px;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: absolute;
+  border:none;
+
+  }
+  .showcase{
+    margin-top: 33px;
+  }
   a  {
     text-decoration: none;
-    color: pink;
+    color: #72FFFF;
+    margin: 0px;
+    /* padding: 22px 24px; */
+    transition: 0.5s;
   }
   a:hover{
-    color: purple;
-    padding: 10px 5px 10px 5px;
+    margin: 0px;
+  
+    padding: 23px 20px;
+    color: #005b97;
+    font-size: 22px;
+    transition: 0.5s;
     background-color: white;
-    border-radius: 10px;
-    transition: 0.3s;
   }
+
+
+
+
+
+
+
 #About-us{
   height: 1000px;
-  text-align: left;
   margin-top: 100px;
   margin-top: 150px;
+  margin-left: 150px;
+  margin-right: 150px;
 }
 #Events{
   margin-top: 1000px;
   height: 1000px;
-  text-align: left;
 }
 
-#Showcase{
-  margin-top: 1000px;
-}
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-
-#Apply{
-  margin-top: 1000px;
-  top: 100px;
-  height: 1000px;
-  text-align: left;
-}
-.Apply {
-  background-color: white;
-  border-radius: 5px;
-  padding: 10px;
-  color: purple;
-  margin-left: 70px;
-  
-}
-
-h7{
-  font-size: 50px;
-  margin-left: 100px;
-  margin-right: 50px;
-  text-decoration: overline;
-  color: purple;
-  list-style-type:disc;
-  font-weight: bolder;
-  margin-bottom: 20px;
-  position: relative;
-  margin-top: 0px;
-}
 p {
- text-align: left;
+ text-align: justify;
   margin-right: 100px;
   margin-left: 100px;
-  font-size: 20px;
-  color: purple;
+  font-size: 25px;
+  line-height: 35px;
 }
 h2{
   margin-top: 60px;
@@ -176,77 +364,8 @@ h2{
   margin-left: 100px;
   color:purple;
 }
-.Awards{
-  height: 300px;
-  width: 500px;
-}
-.image{
-  display: flex;
-  flex-direction: row;
-  margin-left: 100px;
-}
-.dance{
-  border: 3px solid purple;
-  margin: 20px;
-  border-radius: 5px;
-}
-.slidepicture{
-  align-content: center;
-  height: 500px;
-  margin-bottom: 0px;
-  width: 1000px;
-  border-radius: 10px;
-}
-.slideshow{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 1000px;
-  position: relative;
-  border: 2px solid purple;
-   margin: auto;
-   border-radius: 10px;
-}
-.slide{
-  display: none;
-  margin: 0px;
-}
-
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-   width: auto;
-  padding: 16px;
-  color: purple;
-  font-weight: bold; 
-   font-size: 18px;
-  transition: 0.6s ease;
-  user-select: none;
-}
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-.prev{
-  left:0;
-  border-radius: 0 3px 3px 0;
-}
-
-.prev:hover  {
-  background-color: white;
-  padding: 16px;
-  border-radius: 0 3px 3px 0;
-}
-
-.next:hover{
-  background-color: white;
-  padding: 16px;
-  border-radius: 3px 0 0 3px;
-}
 
 h6{
-    color: purple;
     font-size: 25px;
     position: absolute;
     bottom: -30px;
